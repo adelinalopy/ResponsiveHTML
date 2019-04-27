@@ -10,8 +10,10 @@
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-------------------------------JQUERY----------------------------------------->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="js/script.js" type="text/javascript"></script>
 </head>
 <body>
     <header>
@@ -32,9 +34,16 @@
         </div>
     </header>
     <section class="slider">
-        <ul>
-            <li>
-                <h2>Slider</h2>
+        <ul class="slidr-carousel" id="slider-carousel">
+            <li class="img1">
+                <h2>MY BUSINESS <span></span> </h2>
+                <p>We believe in creativity alway</p>
+                <i class="fa fa-apple"></i>
+                <i class="fa fa-android"></i>
+                <i class="fa fa-windows"></i>
+                <p>Le Lorem Ipsum est simplement du faux texte employé <br>dans la composition et la mise en page avant impression.</p>
+                <a href="" class="btn btn-half">Get Started</a>
+                <a href="" class="btn btn-full">Buy Now</a>
             </li>
             <li>
                 <h2>Slider</h2>
@@ -44,5 +53,6 @@
             </li>
         </ul>
     </section>
+    <script src="js/main.js"></script>
 </body>
 </html>
